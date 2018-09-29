@@ -10,6 +10,7 @@ end
 
 def assign_rooms(attendees)
   my_array = []
-    attendees.each_with_index 
+    attendees.each_with_index |name, idx| do
+      
   end 
 end
