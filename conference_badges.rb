@@ -12,7 +12,7 @@ def assign_rooms(attendees)
   my_array = []
     attendees.each_with_index |name, idx| do
       index = idx + 1
-      my_array << "Hello, #{name}! You'll be assigned to room #{index}!
+      my_array << "Hello, #{name}! You'll be assigned to room #{index}!"
     end 
   return my_array
 end
